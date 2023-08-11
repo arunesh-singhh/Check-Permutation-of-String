@@ -1,28 +1,6 @@
 import java.util.Scanner;
 
 public class checkPermutation {
-
-    // public static boolean isPermutation(String str1, String str2) {
-	// 	int n = str1.length();
-	// 	int m = str2.length();
-	// 	if (n != m) {
-	// 		return false;
-	// 	}
-	// 	for (int i = 0; i < n; i++) {
-	// 		for (int j = 0; j < m; j++) {
-	// 			if (str1.charAt(i) == str2.charAt(j)) {
-    //                 String cr = "A";
-    //                 str2 = str2.substring(0, j) + cr + str2.substring(j + 1);
-	// 				break;
-	// 			}
-	// 			if (j == m-1) {
-	// 			    return false;
-	// 		    }
-	// 		}
-	// 	}
-	// 	return true;
-	// }
-
     public static boolean isPermutation(String str1, String str2) {
         int[] frequency = new int[26];
 
@@ -74,7 +52,7 @@ public class checkPermutation {
 		boolean ans = isPermutation(str1, str2);
 
 		System.out.println(ans);
-        sr.close();
+                sr.close();
 		
 	}
 }
