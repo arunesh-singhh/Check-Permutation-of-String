@@ -53,6 +53,5 @@ public class checkPermutation {
 
 		System.out.println(ans);
                 sr.close();
-		
 	}
 }
